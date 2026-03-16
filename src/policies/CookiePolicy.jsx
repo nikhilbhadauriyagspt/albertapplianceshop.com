@@ -119,7 +119,7 @@ const CookiePolicy = () => {
             <p>If you have questions or concerns about this Cookie Policy or our use of cookies, you may contact us at:</p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
               ALBERT APPLIANCE SHOP<br />
-              128 E Pacific Coast Hwy, Long Beach, CA 90813, USA<br />
+              3174 Earl L Core Rd, Morgantown, WV 26508, United States<br />
               United States<br />
               Email: <a href="mailto:info@albertapplianceshop.com" className="text-blue-600">info@albertapplianceshop.com</a>
             </address>

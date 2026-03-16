@@ -17,7 +17,7 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">AGREEMENT TO OUR LEGAL TERMS</h2>
             <p>
               We are ALBERT APPLIANCE SHOP ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company operating in Long Beach,
-              United States at 128 E Pacific Coast Hwy, Long Beach, CA 90813, USA.
+              United States at 3174 Earl L Core Rd, Morgantown, WV 26508, United States.
             </p>
             <p>
               We operate the website <a href="https://albertapplianceshop.com/" className="text-blue-600 hover:text-blue-400">https://albertapplianceshop.com/</a> (the "<strong>Site</strong>"), as well as any other related
@@ -32,7 +32,7 @@ const TermsOfService = () => {
             </p>
             <p>
               You can contact us by email at <a href="mailto:info@albertapplianceshop.com" className="text-blue-600">info@albertapplianceshop.com</a>, or by
-              mail to 128 E Pacific Coast Hwy, Long Beach, CA 90813, USA.
+              mail to 3174 Earl L Core Rd, Morgantown, WV 26508, United States.
             </p>
             <p>
               These Legal Terms constitute a legally binding agreement made between you, whether
@@ -263,7 +263,7 @@ const TermsOfService = () => {
             <p>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
               ALBERT APPLIANCE SHOP<br />
-              128 E Pacific Coast Hwy, Long Beach, CA 90813, USA<br />
+              3174 Earl L Core Rd, Morgantown, WV 26508, United States<br />
               United States<br />
               <a href="mailto:info@albertapplianceshop.com" className="text-blue-600">info@albertapplianceshop.com</a>
             </address>

@@ -171,7 +171,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[9px] font-black text-gray-400 uppercase tracking-widest leading-none mb-1">Visit Us</span>
-                  <span className="text-sm font-bold text-gray-900 tracking-tight leading-tight">128 E Pacific Coast Hwy, Long Beach, CA 90813, USA</span>
+                  <span className="text-sm font-bold text-gray-900 tracking-tight leading-tight">3174 Earl L Core Rd, Morgantown, WV 26508, United States</span>
                 </div>
               </div>
             </div>

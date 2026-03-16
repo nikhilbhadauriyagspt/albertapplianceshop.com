@@ -267,7 +267,7 @@ const PrivacyPolicy = () => {
             <p>If you have questions or comments about this notice, you may email us at <strong>info@albertapplianceshop.com</strong> or contact us by post at:</p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
               ALBERT APPLIANCE SHOP<br />
-              128 E Pacific Coast Hwy, Long Beach, CA 90813, USA<br />
+              3174 Earl L Core Rd, Morgantown, WV 26508, United States<br />
               United States
             </address>
           </section>
