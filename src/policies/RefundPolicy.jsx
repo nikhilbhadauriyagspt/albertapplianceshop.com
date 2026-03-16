@@ -9,7 +9,7 @@ const RefundPolicy = () => {
     <div className="bg-white min-h-screen pt-44 pb-24">
       <div className="container mx-auto px-4 max-w-4xl">
         <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4 uppercase">Refund Policy</h1>
-        <p className="text-gray-500 mb-12 italic">Last updated February 18, 2026</p>
+        <p className="text-gray-500 mb-12 italic">Last updated March 17, 2026</p>
 
         <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-8">
           <section>
@@ -30,10 +30,10 @@ const RefundPolicy = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">PROCESS</h2>
             <p>
-              To request a refund, please email customer service at <a href="mailto:info@appliancenerdy.shop" className="text-primary font-bold">info@appliancenerdy.shop</a> with your service order number. After receiving your request, we will review the service performed and notify you of the status of your refund.
+              To request a refund, please email customer service at <a href="mailto:info@albertapplianceshop.com" className="text-blue-600 font-bold">info@albertapplianceshop.com</a> with your service order number. After receiving your request, we will review the service performed and notify you of the status of your refund.
             </p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-6 leading-relaxed font-bold">
-              APPLIANCENERDY<br />
+              ALBERT APPLIANCE SHOP<br />
               Attn: Returns/Refunds<br />
               128 E Pacific Coast Hwy, Long Beach, CA 90813, USA<br />
               United States
@@ -65,10 +65,10 @@ const RefundPolicy = () => {
               If you have any questions concerning our refund policy, please contact us at:
             </p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
-              APPLIANCENERDY<br />
+              ALBERT APPLIANCE SHOP<br />
               128 E Pacific Coast Hwy, Long Beach, CA 90813, USA<br />
               United States<br />
-              Email: <a href="mailto:info@appliancenerdy.shop" className="text-primary hover:underline">info@appliancenerdy.shop</a>
+              Email: <a href="mailto:info@albertapplianceshop.com" className="text-blue-600 hover:underline">info@albertapplianceshop.com</a>
             </address>
           </section>
         </div>

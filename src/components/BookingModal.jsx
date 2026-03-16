@@ -65,7 +65,7 @@ const BookingModal = ({ isOpen, onClose, serviceTitle }) => {
         <div className="hidden md:flex md:w-[40%] bg-gray-950 p-12 lg:p-16 flex-col justify-between relative overflow-hidden text-white">
           {/* Decorative gradients */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600/30 blur-[120px] -mr-48 -mt-48" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-500/10 blur-[80px] -ml-32 -mb-32" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/10 blur-[80px] -ml-32 -mb-32" />
           
           <div className="relative z-10">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-[9px] font-black tracking-[0.3em] text-blue-400 uppercase mb-10">
@@ -105,7 +105,7 @@ const BookingModal = ({ isOpen, onClose, serviceTitle }) => {
               </div>
               <h3 className="text-3xl font-black text-gray-900 mb-4 tracking-tight">Booking Confirmed!</h3>
               <p className="text-gray-500 font-medium max-w-xs mx-auto">
-                A service coordinator will contact you shortly to finalize the technician's arrival time.
+                A service coordinator will contact you shortly to finalize the expert's arrival time.
               </p>
             </div>
           ) : (

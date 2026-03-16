@@ -2,7 +2,6 @@ import Hero from '../components/Hero';
 import AboutOrganization from '../components/AboutOrganization';
 import RepairSolutions from '../components/RepairSolutions';
 import RepairProcess from '../components/RepairProcess';
-import LatestBlogs from '../components/LatestBlogs';
 import FAQ from '../components/FAQ';
 import ContactSection from '../components/ContactSection';
 
@@ -14,7 +13,7 @@ const Home = () => {
       <RepairSolutions />
       <RepairProcess />
       <FAQ />
-      <LatestBlogs />
+      
       <ContactSection />
     </div>
   );

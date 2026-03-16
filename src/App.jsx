@@ -7,8 +7,7 @@ import Footer from './components/Footer';
 // Pages
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
-const Blog = lazy(() => import('./pages/Blog'));
-const BlogDetail = lazy(() => import('./pages/BlogDetail'));
+
 const Contact = lazy(() => import('./pages/Contact'));
 
 // Policies
@@ -50,8 +49,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/blog/:id" element={<BlogDetail />} />
+           
               <Route path="/contact" element={<Contact />} />
 
               {/* Policy Routes */}

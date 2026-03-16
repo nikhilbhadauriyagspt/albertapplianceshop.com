@@ -1,6 +1,7 @@
 import { Wrench, Mail, MapPin, ArrowUpRight, ShieldCheck, Sparkles, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { servicesData } from '../servicesData';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,17 +41,7 @@ const Footer = () => {
   const footerLinks = {
     company: [
       { name: 'About Us', path: '/about' },
-      { name: 'Latest Blog', path: '/blog' },
       { name: 'Contact', path: '/contact' },
-     
-    ],
-    services: [
-      { name: 'Washing Machine', path: '/service/washing-machine' },
-      { name: 'Refrigerator', path: '/service/refrigerator' },
-      { name: 'Air Conditioner', path: '/service/air-conditioner' },
-      { name: 'Television', path: '/service/television' },
-      { name: 'Water Purifier', path: '/service/water-purifier' },
-      { name: 'Kitchen Chimney', path: '/service/kitchen-chimney' },
     ],
     support: [
       { name: 'Privacy Policy', path: '/privacy-policy' },
@@ -63,24 +54,16 @@ const Footer = () => {
 
   return (
     <footer className="relative bg-gray-50/50 pt-24 pb-12 overflow-hidden border-t border-gray-100">
-      {/* Aesthetic Background Accents - Very subtle for light theme */}
+      {/* Aesthetic Background Accents */}
       <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-blue-50/80 blur-[120px] rounded-full pointer-events-none -z-10" />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Top Section: Brand & Newsletter Bento */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20 items-center">
           <div className="lg:col-span-5">
             <Link to="/" className="flex items-center gap-2 mb-8 group">
-              <div className="bg-blue-600 p-2 rounded-xl group-hover:rotate-12 transition-transform duration-300 shadow-lg shadow-blue-500/20">
-                <Wrench className="text-white" size={24} />
-              </div>
-              <div className="flex flex-col leading-none">
-                <span className="text-2xl font-black tracking-tighter text-gray-900 uppercase">
-                  APPLIANCE<span className="text-blue-600">NERDY</span>
-                </span>
-                <span className="text-[10px] font-black tracking-[0.2em] text-blue-500/80 uppercase">Premium Repair Services</span>
-              </div>
+              <img src="/logo.png" alt="Albert Appliance Shop Logo" className="h-12 w-auto object-contain" />
             </Link>
             <p className="text-gray-500 text-lg font-medium leading-relaxed max-w-sm mb-10">
               Your trusted partner for high-end appliance repairs. Delivering precision and reliability to your doorstep since 2026.
@@ -93,7 +76,7 @@ const Footer = () => {
                <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
                   <div className="text-center md:text-left">
                     <div className="flex items-center gap-2 mb-2 justify-center md:justify-start">
-                      <Sparkles size={16} className="text-blue-600" />
+                    
                       <h3 className="text-gray-900 text-2xl font-black tracking-tight">Stay in the loop.</h3>
                     </div>
                     <p className="text-gray-500 text-sm font-medium">Get the latest repair tips and exclusive offers.</p>
@@ -132,7 +115,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Middle Section: Links Grid */}
+        {/* Middle Section: Links Grid (4 Column Layout) */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-12 mb-20 border-b border-gray-100 pb-20">
           <div>
             <h4 className="text-[11px] font-black text-gray-900 uppercase tracking-[0.3em] mb-8">The Company</h4>
@@ -147,14 +130,18 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-[11px] font-black text-gray-900 uppercase tracking-[0.3em] mb-8">Popular Services</h4>
-            <ul className="space-y-4">
-              {footerLinks.services.map(link => (
-                <li key={link.name}>
-                  <Link to={link.path} className="text-gray-500 hover:text-blue-600 font-bold text-sm transition-colors">{link.name}</Link>
-                </li>
-              ))}
-            </ul>
+            <h4 className="text-[11px] font-black text-gray-900 uppercase tracking-[0.3em] mb-8">Our Services</h4>
+            <div className="max-h-64 overflow-y-auto pr-4 custom-scrollbar">
+              <ul className="space-y-4">
+                {servicesData.map(service => (
+                  <li key={service.id}>
+                    <Link to={`/service/${service.id}`} className="text-gray-500 hover:text-blue-600 font-bold text-sm transition-colors block">
+                      {service.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
           <div>
             <h4 className="text-[11px] font-black text-gray-900 uppercase tracking-[0.3em] mb-8">Our Support</h4>
@@ -175,7 +162,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[9px] font-black text-gray-400 uppercase tracking-widest leading-none mb-1">Send Email</span>
-                  <a href="mailto:info@appliancenerdy.shop" className="text-sm font-bold text-gray-900 hover:text-blue-600 transition-colors tracking-tight">info@appliancenerdy.shop</a>
+                  <a href="mailto:info@albertapplianceshop.com" className="text-sm font-bold text-gray-900 hover:text-blue-600 transition-colors tracking-tight">info@albertapplianceshop.com</a>
                 </div>
               </div>
               <div className="flex items-start gap-4 group">
@@ -184,7 +171,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[9px] font-black text-gray-400 uppercase tracking-widest leading-none mb-1">Visit Us</span>
-                  <span className="text-sm font-bold text-gray-900 tracking-tight">128 E Pacific Coast Hwy, Long Beach, CA 90813, USA</span>
+                  <span className="text-sm font-bold text-gray-900 tracking-tight leading-tight">128 E Pacific Coast Hwy, Long Beach, CA 90813, USA</span>
                 </div>
               </div>
             </div>
@@ -205,7 +192,7 @@ const Footer = () => {
           
           <div className="text-center md:text-right">
             <p className="text-gray-400 text-xs font-bold uppercase tracking-[0.1em] mb-1">
-              &copy; {currentYear} APPLIANCENERDY. Built with Precision.
+              &copy; {currentYear} Albert Appliance Shop. Built with Precision.
             </p>
             <p className="text-[10px] text-gray-300 font-medium">
               Made with passion for perfect appliance maintenance.
@@ -214,6 +201,21 @@ const Footer = () => {
         </div>
 
       </div>
+      <style>{`
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 2px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: #e0e7ff;
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+          background: #4f46e5;
+        }
+      `}</style>
     </footer>
   );
 };

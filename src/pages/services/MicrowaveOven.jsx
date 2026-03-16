@@ -13,7 +13,7 @@ const MicrowaveOvenPage = () => (
         <section>
           <h2 className="text-3xl font-black text-gray-900 mb-6 uppercase tracking-tight">Safe & Efficient Heating</h2>
           <p className="text-gray-500 leading-relaxed font-medium">
-            Microwave ovens are highly convenient but require specialized knowledge to repair safely due to high-voltage components. Whether it's a Solo, Grill, or Convection microwave, our certified technicians handle all repairs with extreme precision and safety testing.
+            Microwave ovens are highly convenient but require specialized knowledge to repair safely due to high-voltage components. Whether it's a Solo, Grill, or Convection microwave, our certified experts handle all repairs with extreme precision and safety testing.
           </p>
         </section>
 
@@ -37,7 +37,7 @@ const MicrowaveOvenPage = () => (
           <div className="space-y-4">
              {[
                { title: "Radiation Leak Test", desc: "We use professional meters to ensure no harmful radiation is escaping the unit after repair." },
-               { title: "High-Voltage Discharge", desc: "Our technicians safely discharge the high-voltage capacitor before performing any work." },
+               { title: "High-Voltage Discharge", desc: "Our experts safely discharge the high-voltage capacitor before performing any work." },
                { title: "Door Interlock Check", desc: "Crucial for preventing the oven from running while the door is open." }
              ].map((item, idx) => (
                <div key={idx} className="flex gap-6 items-center p-6 bg-gray-50 rounded-3xl border border-gray-100">

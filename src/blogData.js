@@ -4,10 +4,10 @@ export const blogPosts = [
     title: "5 Signs Your Washing Machine Needs Professional Service",
     excerpt: "Don't wait for a flood. Learn how to spot early warning signs of failure.",
     content: `
-      <p>A washing machine is one of the hardest-working appliances in any home. From daily laundry loads to heavy bedding washes, it handles a lot of wear and tear. While minor issues can sometimes be fixed with basic troubleshooting, certain warning signs indicate it’s time to call a professional technician. Ignoring these symptoms can lead to bigger repairs—or even complete machine failure. Here are five clear signs your washing machine needs professional service.</p>
+      <p>A washing machine is one of the hardest-working appliances in any home. From daily laundry loads to heavy bedding washes, it handles a lot of wear and tear. While minor issues can sometimes be fixed with basic troubleshooting, certain warning signs indicate it’s time to call a professional expert. Ignoring these symptoms can lead to bigger repairs—or even complete machine failure. Here are five clear signs your washing machine needs professional service.</p>
       
       <h3>1. Excessive Noise or Violent Vibrations</h3>
-      <p>Some level of sound during operation is normal. However, if your washer starts making loud banging, grinding, or screeching noises—especially during the spin cycle—it’s a red flag. Unusual vibrations that cause the machine to “walk” across the floor are also concerning. These issues may be caused by worn drum bearings, a faulty motor, or damaged suspension components. A trained technician can diagnose the exact cause and prevent further internal damage.</p>
+      <p>Some level of sound during operation is normal. However, if your washer starts making loud banging, grinding, or screeching noises—especially during the spin cycle—it’s a red flag. Unusual vibrations that cause the machine to “walk” across the floor are also concerning. These issues may be caused by worn drum bearings, a faulty motor, or damaged suspension components. A trained specialist can diagnose the exact cause and prevent further internal damage.</p>
       
       <h3>2. Water Leaks Around the Machine</h3>
       <p>Water pooling around your washing machine is never a good sign. Leaks may result from cracked hoses, worn door seals, or internal pump issues. While tightening a loose hose might solve a minor problem, persistent leaks often indicate deeper mechanical concerns. Continuous leakage can damage your flooring and create mold risks, so professional inspection is highly recommended.</p>
@@ -16,13 +16,13 @@ export const blogPosts = [
       <p>If your clothes come out soaking wet after a full cycle, the drum may not be spinning correctly. This could be due to a broken drive belt, motor malfunction, or control board failure. Attempting DIY repairs on these components can be risky and may void warranties. Professional service ensures the correct parts are replaced and the machine is calibrated properly.</p>
       
       <h3>4. Foul Odors That Won’t Go Away</h3>
-      <p>A slight musty smell can sometimes be resolved by cleaning the drum and running a hot wash cycle with vinegar or a cleaning solution. However, persistent foul odors may indicate mold buildup inside hidden components, clogged drain lines, or pump issues. A professional technician can thoroughly clean and inspect internal parts that are not easily accessible to homeowners.</p>
+      <p>A slight musty smell can sometimes be resolved by cleaning the drum and running a hot wash cycle with vinegar or a cleaning solution. However, persistent foul odors may indicate mold buildup inside hidden components, clogged drain lines, or pump issues. A professional expert can thoroughly clean and inspect internal parts that are not easily accessible to homeowners.</p>
       
       <h3>5. Error Codes and Frequent Cycle Interruptions</h3>
       <p>Modern washing machines come equipped with digital displays that show error codes when something goes wrong. If your washer frequently stops mid-cycle or displays unfamiliar error messages, it could point to sensor failures, electrical issues, or control board problems. Ignoring these codes can worsen the problem. Professional servicing ensures accurate diagnosis using proper tools and expertise.</p>
       
       <h3>Why Professional Service Matters</h3>
-      <p>Washing machines are complex appliances with electrical, mechanical, and plumbing components working together. Professional technicians have the experience to safely diagnose and repair problems without causing additional damage. Regular maintenance can also extend the lifespan of your appliance and improve energy efficiency.</p>
+      <p>Washing machines are complex appliances with electrical, mechanical, and plumbing components working together. Our experts have the experience to safely diagnose and repair problems without causing additional damage. Regular maintenance can also extend the lifespan of your appliance and improve energy efficiency.</p>
       
       <p>If you notice any of these warning signs, don’t wait until the machine completely breaks down. Timely professional service can save you money, prevent inconvenience, and keep your laundry routine running smoothly.</p>
     `,
@@ -40,7 +40,7 @@ export const blogPosts = [
       <p>Refrigerators are designed to run quietly in the background, so when you suddenly hear buzzing, rattling, clicking, or knocking sounds, it can be alarming. While some noises are completely normal, others may indicate that your appliance needs attention. Understanding the difference can help you decide whether it’s a minor issue or time to call a professional.</p>
       
       <h3>1. Buzzing or Humming Sounds</h3>
-      <p>A low humming sound is normal, especially when the compressor is running. However, if the buzzing becomes louder than usual or constant, it may signal a problem with the compressor or condenser fan. Dust buildup around the condenser coils can also make the fridge work harder, causing unusual noise. Cleaning the coils may help, but persistent buzzing should be checked by a technician.</p>
+      <p>A low humming sound is normal, especially when the compressor is running. However, if the buzzing becomes louder than usual or constant, it may signal a problem with the compressor or condenser fan. Dust buildup around the condenser coils can also make the fridge work harder, causing unusual noise. Cleaning the coils may help, but persistent buzzing should be checked by an expert.</p>
       
       <h3>2. Clicking Noises</h3>
       <p>Occasional clicking is normal when the thermostat turns the compressor on or off. But repeated clicking without the fridge starting properly could indicate a faulty start relay or compressor issue. If the fridge struggles to maintain cooling along with clicking sounds, professional servicing is recommended.</p>

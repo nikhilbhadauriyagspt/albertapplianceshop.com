@@ -13,7 +13,7 @@ const OvenGasStovePage = () => (
         <section>
           <h2 className="text-3xl font-black text-gray-900 mb-6 uppercase tracking-tight">Precision Cooking & Safety</h2>
           <p className="text-gray-500 leading-relaxed font-medium">
-            A faulty gas stove or oven is not just a cooking inconvenience; it's a significant safety hazard. Our expert technicians provide comprehensive maintenance and repair for built-in ovens, cooking ranges, and standard gas stoves, ensuring optimal performance and complete peace of mind.
+            A faulty gas stove or oven is not just a cooking inconvenience; it's a significant safety hazard. Our expert specialists provide comprehensive maintenance and repair for built-in ovens, cooking ranges, and standard gas stoves, ensuring optimal performance and complete peace of mind.
           </p>
         </section>
 

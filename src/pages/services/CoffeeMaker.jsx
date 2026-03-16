@@ -13,7 +13,7 @@ const CoffeeMakerPage = () => (
         <section>
           <h2 className="text-3xl font-black text-gray-900 mb-6 uppercase tracking-tight">The Perfect Brew, Restored</h2>
           <p className="text-gray-500 leading-relaxed font-medium">
-            Your coffee maker is a precision instrument where temperature, pressure, and timing must align perfectly. Whether you have a high-end espresso machine or a classic drip brewer, our specialized technicians understand the intricate plumbing and electronics required for the perfect cup.
+            Your coffee maker is a precision instrument where temperature, pressure, and timing must align perfectly. Whether you have a high-end espresso machine or a classic drip brewer, our specialized experts understand the intricate plumbing and electronics required for the perfect cup.
           </p>
         </section>
 

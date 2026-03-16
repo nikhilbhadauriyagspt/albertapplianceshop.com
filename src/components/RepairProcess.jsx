@@ -18,15 +18,15 @@ const RepairProcess = () => {
       id: "02",
       title: "Schedule",
       label: "Book Expert",
-      desc: "Our AI system matches you with the best available certified technician in your area.",
+      desc: "Our AI system matches you with the best available certified expert in your area.",
       icon: <CalendarCheck size={22} />,
-      color: "indigo"
+      color: "blue"
     },
     {
       id: "03",
       title: "Execution",
       label: "Repair Done",
-      desc: "The technician arrives with genuine parts to restore your appliance's peak performance.",
+      desc: "The expert arrives with genuine parts to restore your appliance's peak performance.",
       icon: <Wrench size={22} />,
       color: "emerald"
     },
@@ -45,7 +45,7 @@ const RepairProcess = () => {
       {/* Aesthetic Background Orbs */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-blue-50/30 blur-[120px] rounded-full -z-10" />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Aesthetic Header */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
@@ -58,7 +58,7 @@ const RepairProcess = () => {
             </h2>
           </div>
           <p className="text-gray-400 font-medium max-w-xs text-sm md:text-base border-l-2 border-blue-100 pl-6 mb-2">
-            A seamless, technology-driven journey from breakdown to guaranteed performance.
+            A seamless, expert-driven journey from breakdown to guaranteed performance.
           </p>
         </div>
 
@@ -110,11 +110,9 @@ const RepairProcess = () => {
               <span className="relative z-10 flex items-center gap-4">
                 Initialize Booking <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
               </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity" />
            </button>
-           <p className="mt-8 text-gray-400 text-[10px] font-bold uppercase tracking-widest flex items-center justify-center gap-2">
-             <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse" /> Same day service available in your area
-           </p>
+         
         </div>
 
       </div>

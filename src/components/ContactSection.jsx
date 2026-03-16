@@ -75,7 +75,7 @@ const ContactSection = () => {
                </div>
                <h3 className="text-xl font-black text-gray-900 mb-2 uppercase tracking-tight">Digital Mail</h3>
                <p className="text-gray-500 text-sm font-bold mb-4">Expect our response within 2 business hours.</p>
-               <a href="mailto:info@appliancenerdy.shop" className="text-xl font-black text-blue-600 hover:text-blue-700 transition-colors">info@appliancenerdy.shop</a>
+               <a href="mailto:info@albertapplianceshop.com" className="text-xl font-black text-blue-600 hover:text-blue-700 transition-colors">info@albertapplianceshop.com</a>
             </div>
 
             <div className="p-8 rounded-[40px] bg-gray-50 border border-gray-100 group transition-all duration-500 hover:bg-white hover:shadow-2xl">
@@ -149,10 +149,7 @@ const ContactSection = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row items-center justify-between gap-8 pt-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse" />
-                  <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Encrypted Connection</span>
-                </div>
+               
                 <button 
                   disabled={isSubmitting}
                   className="w-full sm:w-auto py-5 px-12 bg-gray-900 hover:bg-blue-600 text-white rounded-3xl font-black text-[10px] uppercase tracking-[0.2em] transition-all shadow-2xl shadow-gray-900/20 active:scale-95 flex items-center justify-center gap-4 group/send cursor-pointer disabled:opacity-50 disabled:scale-100"

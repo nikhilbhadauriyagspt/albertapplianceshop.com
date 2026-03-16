@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://appliancenerdy.shop/sitemap.xml
+Sitemap: https://albertapplianceshop.com/sitemap.xml

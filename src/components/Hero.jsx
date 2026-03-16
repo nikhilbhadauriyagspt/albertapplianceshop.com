@@ -5,34 +5,34 @@ import BookingModal from './BookingModal';
 
 const slides = [
   {
-    tag: "Laundry Expert",
-    title: "Revolutionizing",
-    highlight: "Washing Machine",
-    suffix: "Repairs.",
-    subtitle: "Experience lightning-fast service with our certified master technicians. Same-day fixes guaranteed.",
+    tag: "Trusted Repair Experts",
+    title: "Fast & Reliable",
+    highlight: "Home Appliance",
+    suffix: "Repair Services.",
+    subtitle: "Quick solutions for your daily essentials. Our certified experts fix your appliances on the same day with genuine spare parts.",
     image: "/hero-washing.jpg",
-    color: "from-blue-600 to-indigo-600",
+    color: "from-blue-600 to-blue-600",
     shadow: "shadow-blue-500/20"
   },
   {
-    tag: "Cooling Master",
-    title: "Pro-Level",
+    tag: "Cooling Solutions",
+    title: "Professional",
     highlight: "Refrigerator",
-    suffix: "Maintenance.",
-    subtitle: "From compressor failures to gas leaks, we restore your fridge's peak performance in hours, not days.",
+    suffix: "Service & Fix.",
+    subtitle: "Keep your food fresh and your fridge running efficiently. We handle everything from cooling issues to compressor repairs.",
     image: "/hero-refri.jpg",
-    color: "from-emerald-500 to-teal-600",
-    shadow: "shadow-emerald-500/20"
+    color: "from-blue-600 to-blue-600",
+    shadow: "shadow-blue-500/20"
   },
   {
-    tag: "Kitchen Tech",
-    title: "Precision",
-    highlight: "Cooking Oven",
-    suffix: "Care.",
-    subtitle: "Restoring the heart of your kitchen. Expert calibration and part replacement for all premium brands.",
+    tag: "Kitchen Care",
+    title: "Expert Care for",
+    highlight: "Cooking Range",
+    suffix: "& Ovens.",
+    subtitle: "Safety first! Get your gas stove, oven, or microwave serviced by experts to ensure peak performance and long-lasting durability.",
     image: "/hero-cook.jpg",
-    color: "from-orange-500 to-red-600",
-    shadow: "shadow-orange-500/20"
+    color: "from-blue-600 to-blue-600",
+    shadow: "shadow-blue-500/20"
   }
 ];
 
@@ -51,121 +51,103 @@ const Hero = () => {
   const prevSlide = () => setCurrent(current === 0 ? slides.length - 1 : current - 1);
 
   return (
-    <section className="relative min-h-[90vh] lg:h-screen flex items-center bg-white overflow-hidden pt-20">
-      {/* Background Decorative Elements */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-50/50 to-transparent pointer-events-none" />
-      <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-100/30 rounded-full blur-3xl pointer-events-none" />
-      
-      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
-          {/* Left Content - Text */}
-          <div className="lg:col-span-7 text-center lg:text-left order-2 lg:order-1">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-100 text-[10px] font-black tracking-[0.2em] text-blue-600 uppercase mb-8 shadow-sm">
+    <section className="relative h-screen min-h-[700px] w-full overflow-hidden bg-gray-900">
+      {/* Full Screen Background Images */}
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            index === current ? 'opacity-100' : 'opacity-0'
+          }`}
+        >
+          <img 
+            src={slide.image} 
+            alt={slide.title}
+            className={`w-full h-full object-cover transition-transform duration-[10000ms] ease-linear ${
+              index === current ? 'scale-110' : 'scale-100'
+            }`}
+          />
+          {/* Dark Overlay for Readability */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
+        </div>
+      ))}
+
+      <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center text-center z-10">
+        <div className="max-w-full w-full">
+          {/* Content Wrapper */}
+          <div className="flex flex-col items-center space-y-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-600/20 backdrop-blur-md border border-blue-500/30 text-[10px] font-black tracking-[0.2em] text-blue-400 uppercase shadow-lg">
               <SparkleIcon />
               {slides[current].tag}
             </div>
 
-            <div className="relative overflow-hidden h-[140px] sm:h-[180px] lg:h-[200px] mb-6">
-              {slides.map((slide, index) => {
-                const Tag = index === current ? 'h1' : 'div';
-                return (
-                  <div 
-                    key={index}
-                    className={`absolute inset-0 transition-all duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] transform ${
-                      index === current ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-20 opacity-0 scale-95'
-                    }`}
-                  >
-                    <Tag className="text-3xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-[1.1] tracking-tighter">
-                      {slide.title} <br />
-                      <span className={`bg-gradient-to-r ${slide.color} bg-clip-text text-transparent`}>
-                        {slide.highlight}
-                      </span> <br />
-                      {slide.suffix}
-                    </Tag>
-                  </div>
-                );
-              })}
+            <div className="relative w-full h-[160px] ">
+              {slides.map((slide, index) => (
+                <div 
+                  key={index}
+                  className={`absolute inset-0 transition-all duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] transform ${
+                    index === current ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                  }`}
+                >
+                  <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-[1.1]">
+                    {slide.title} <span className={`bg-gradient-to-r ${slide.color} bg-clip-text text-transparent`}>
+                      {slide.highlight}
+                    </span> <br />
+                    {slide.suffix}
+                  </h1>
+                </div>
+              ))}
             </div>
 
-            <p className="text-gray-500 text-sm sm:text-lg lg:text-xl font-medium max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed">
+            <p className="text-gray-300 text-base sm:text-xl font-medium max-w-2xl mx-auto leading-relaxed transition-all duration-700">
               {slides[current].subtitle}
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 w-full sm:w-auto">
               <button 
                 onClick={() => setIsModalOpen(true)}
-                className={`group relative w-full sm:w-auto px-10 py-5 bg-gray-900 text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-2xl transition-all hover:bg-blue-600 active:scale-95 cursor-pointer`}
+                className="group w-full sm:w-auto px-10 py-5 bg-blue-600 text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-2xl shadow-blue-600/30 transition-all hover:bg-blue-500 hover:-translate-y-1 active:scale-95 cursor-pointer flex items-center justify-center gap-3"
               >
-                <span className="relative z-10 flex items-center justify-center gap-3">
-                  Schedule Repair <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </span>
+                Schedule Repair <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </button>
               
-              <button 
-                onClick={() => {
-                  const element = document.getElementById('repair-solutions');
-                  if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
-                className="w-full sm:w-auto px-10 py-5 bg-white border-2 border-gray-100 text-gray-900 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-gray-50 hover:border-gray-200 transition-all active:scale-95 cursor-pointer flex items-center justify-center"
-              >
-                Explore Services
-              </button>
             </div>
           </div>
-
-          {/* Right Content - Visual */}
-          <div className="lg:col-span-5 order-1 lg:order-2">
-            <div className="relative group">
-              {/* Main Image Bento Card */}
-              <div className="relative aspect-[4/5] sm:aspect-square lg:aspect-[4/5] rounded-[48px] overflow-hidden shadow-2xl border-4 border-white">
-                {slides.map((slide, index) => (
-                  <img loading="eager"
-                    key={index}
-                    src={slide.image}
-                    alt={slide.title}
-                    className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out transform ${
-                      index === current ? 'scale-100 rotate-0 opacity-100' : 'scale-110 rotate-2 opacity-0'
-                    }`}
-                  />
-                ))}
-                <div className="absolute inset-0 bg-gradient-to-tr from-gray-900/40 via-transparent to-transparent" />
-              </div>
-
-              {/* Floating Aesthetic Badges */}
-              <div className="absolute -top-6 -right-6 w-32 h-32 bg-white/80 backdrop-blur-xl rounded-[32px] shadow-xl border border-white flex flex-col items-center justify-center p-4 animate-bounce-slow">
-                <ShieldCheck className="text-blue-600 mb-2" size={32} />
-                <span className="text-[8px] font-black text-gray-400 uppercase text-center leading-tight">Authentic <br /> Parts Only</span>
-              </div>
-              
-              {/* Carousel Controls (Minimalist) */}
-              <div className="absolute top-1/2 -right-4 lg:-right-10 -translate-y-1/2 flex flex-col gap-2">
-                <button onClick={nextSlide} className="w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-white shadow-xl flex items-center justify-center text-gray-900 hover:bg-blue-600 hover:text-white transition-all cursor-pointer border border-gray-100">
-                  <ChevronRight size={20} />
-                </button>
-                <button onClick={prevSlide} className="w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-white shadow-xl flex items-center justify-center text-gray-400 hover:text-gray-900 transition-all cursor-pointer border border-gray-100">
-                  <ChevronLeft size={20} />
-                </button>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
-      
-      {/* Visual Bottom Indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-3">
+
+      {/* Floating Indicators - Right Side */}
+      <div className="absolute right-8 top-1/2 -translate-y-1/2 hidden lg:flex flex-col gap-4 z-20">
         {slides.map((_, index) => (
           <button 
             key={index}
             onClick={() => setCurrent(index)}
-            className={`h-1 rounded-full transition-all duration-500 cursor-pointer ${
-              index === current ? 'w-12 bg-blue-600' : 'w-4 bg-gray-200 hover:bg-gray-300'
-            }`}
-          />
+            className={`group relative flex items-center gap-4 transition-all duration-300`}
+          >
+            <span className={`text-[10px] font-black transition-all duration-300 ${index === current ? 'text-white opacity-100' : 'text-white/0 opacity-0 group-hover:opacity-100 group-hover:text-white/50'}`}>
+              0{index + 1}
+            </span>
+            <div className={`h-12 w-1 rounded-full transition-all duration-500 ${index === current ? 'bg-blue-500' : 'bg-white/20 group-hover:bg-white/40'}`} />
+          </button>
         ))}
+      </div>
+
+      {/* Manual Controls - Bottom Left */}
+      <div className="absolute bottom-10 left-4 sm:left-8 lg:left-12 flex items-center gap-4 z-20">
+        <button onClick={prevSlide} className="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-blue-600 transition-all cursor-pointer">
+          <ChevronLeft size={20} />
+        </button>
+        <button onClick={nextSlide} className="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-blue-600 transition-all cursor-pointer">
+          <ChevronRight size={20} />
+        </button>
+      </div>
+
+      {/* Aesthetic Bottom Progress Bar */}
+      <div className="absolute bottom-0 left-0 w-full h-1 bg-white/10 z-20">
+        <div 
+          key={current}
+          className="h-full bg-blue-500 animate-[progress_5s_linear_infinite]" 
+        />
       </div>
 
       <BookingModal 
@@ -173,6 +155,12 @@ const Hero = () => {
         onClose={() => setIsModalOpen(false)} 
         serviceTitle={slides[current].highlight} 
       />
+      <style>{`
+        @keyframes progress {
+          from { width: 0%; }
+          to { width: 100%; }
+        }
+      `}</style>
     </section>
   );
 };

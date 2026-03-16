@@ -156,7 +156,7 @@ const Blog = () => {
           </div>
 
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/20 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/4" />
-          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-indigo-500/20 blur-[100px] rounded-full translate-y-1/3 -translate-x-1/4" />
+          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-500/20 blur-[100px] rounded-full translate-y-1/3 -translate-x-1/4" />
           
           <div className="relative z-10 max-w-2xl mx-auto">
             <Sparkles className="mx-auto text-blue-500 mb-6" size={32} />

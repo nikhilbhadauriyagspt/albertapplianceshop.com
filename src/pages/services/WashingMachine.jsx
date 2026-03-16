@@ -44,7 +44,7 @@ const WashingMachinePage = () => (
         <section>
           <h3 className="text-2xl font-black text-gray-900 mb-6 uppercase tracking-tight">Our Promise of Quality</h3>
           <p className="text-gray-500 leading-relaxed font-medium mb-8">
-            We understand the value of your appliance. That's why we only use genuine spare parts and provide a transparent pricing model. Our technicians undergo rigorous training to stay updated with the latest technology from brands like Samsung, LG, Whirlpool, and Bosch.
+            We understand the value of your appliance. That's why we only use genuine spare parts and provide a transparent pricing model. Our experts undergo rigorous training to stay updated with the latest systems from brands like Samsung, LG, Whirlpool, and Bosch.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[

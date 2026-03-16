@@ -13,7 +13,7 @@ const TelevisionPage = () => (
         <section>
           <h2 className="text-3xl font-black text-gray-900 mb-6 uppercase tracking-tight">Crystal Clear Entertainment</h2>
           <p className="text-gray-500 leading-relaxed font-medium">
-            Your TV is the center of your home entertainment. Whether it's a cracked screen, a display with no picture, or distorted sound, our technicians have the expertise to bring your television back to life. We specialize in LED, LCD, QLED, and OLED technologies across all major brands.
+            Your TV is the center of your home entertainment. Whether it's a cracked screen, a display with no picture, or distorted sound, our specialists have the expertise to bring your television back to life. We specialize in LED, LCD, QLED, and OLED systems across all major brands.
           </p>
         </section>
 
@@ -36,7 +36,7 @@ const TelevisionPage = () => (
           </section>
 
           <section className="p-8 rounded-[40px] bg-blue-600 text-white shadow-xl shadow-blue-600/20">
-             <h3 className="text-xl font-black mb-6 uppercase tracking-tight">Technical Prowess</h3>
+             <h3 className="text-xl font-black mb-6 uppercase tracking-tight">Professional Prowess</h3>
              <p className="text-blue-100 text-sm font-medium leading-relaxed mb-6">
                Modern smart TVs are essentially high-performance computers. Our lab is equipped with infrared BGA rework stations for precise motherboard and processor repairs.
              </p>

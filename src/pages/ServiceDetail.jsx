@@ -105,7 +105,7 @@ const ServiceDetail = () => {
                   </div>
                   <div>
                     <h5 className="font-black text-gray-900 uppercase text-sm mb-1">Fast Response</h5>
-                    <p className="text-gray-500 text-xs font-bold">Technician reaches in 60 mins</p>
+                    <p className="text-gray-500 text-xs font-bold">Expert reaches in 60 mins</p>
                   </div>
                 </div>
 

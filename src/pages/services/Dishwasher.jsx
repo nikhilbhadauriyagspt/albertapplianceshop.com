@@ -5,7 +5,7 @@ const DishwasherPage = () => (
   <ServiceLayout 
     title="Dishwasher"
     desc="Pump & leakage repair"
-    longDesc="Restore the sparkle to your dishes. Our technicians specialize in fixing pump drainage issues, heating element failures, and complex electronic board repairs."
+    longDesc="Restore the sparkle to your dishes. Our experts specialize in fixing pump drainage issues, heating element failures, and complex electronic board repairs."
     icon={<Waves size={24} />}
     image="/dish.png"
     extraContent={

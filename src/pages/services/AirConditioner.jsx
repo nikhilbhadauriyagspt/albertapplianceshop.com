@@ -13,7 +13,7 @@ const AirConditionerPage = () => (
         <section>
           <h2 className="text-3xl font-black text-gray-900 mb-6 uppercase tracking-tight">Comprehensive Cooling Care</h2>
           <p className="text-gray-500 leading-relaxed font-medium">
-            When the summer heat strikes, a malfunctioning AC is the last thing you want. Our expert technicians are equipped with the latest diagnostic tools to identify and resolve issues quickly. We don't just fix the immediate problem; we ensure your unit is operating at peak efficiency to save you money on energy bills.
+            When the summer heat strikes, a malfunctioning AC is the last thing you want. Our specialized experts are equipped with the latest diagnostic tools to identify and resolve issues quickly. We don't just fix the immediate problem; we ensure your unit is operating at peak efficiency to save you money on energy bills.
           </p>
         </section>
 

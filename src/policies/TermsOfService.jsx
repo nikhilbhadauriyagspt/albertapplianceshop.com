@@ -9,34 +9,34 @@ const TermsOfService = () => {
     <div className="bg-white min-h-screen pt-44 pb-24">
       <div className="container mx-auto px-4 max-w-5xl">
         <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4 uppercase">Terms of Service</h1>
-        <p className="text-gray-500 mb-12 italic">Last updated February 18, 2026</p>
+        <p className="text-gray-500 mb-12 italic">Last updated March 17, 2026</p>
 
         <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-8">
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">AGREEMENT TO OUR LEGAL TERMS</h2>
             <p>
-              We are APPLIANCENERDY ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company operating in Long Beach,
+              We are ALBERT APPLIANCE SHOP ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company operating in Long Beach,
               United States at 128 E Pacific Coast Hwy, Long Beach, CA 90813, USA.
             </p>
             <p>
-              We operate the website <a href="https://appliancenerdy.shop/" className="text-primary hover:text-secondary">https://appliancenerdy.shop/</a> (the "<strong>Site</strong>"), as well as any other related
+              We operate the website <a href="https://albertapplianceshop.com/" className="text-blue-600 hover:text-blue-400">https://albertapplianceshop.com/</a> (the "<strong>Site</strong>"), as well as any other related
               products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively,
               the "<strong>Services</strong>").
             </p>
             <p>
-              APPLIANCENERDY was founded on the principle that household repairs should be handled with
+              ALBERT APPLIANCE SHOP was founded on the principle that household repairs should be handled with
               the same level of precision as industrial maintenance. We recognize that modern appliances
               are complex electronic systems that require specialized knowledge and calibrated tools for
               effective servicing.
             </p>
             <p>
-              You can contact us by email at <a href="mailto:info@appliancenerdy.shop" className="text-primary">info@appliancenerdy.shop</a>, or by
+              You can contact us by email at <a href="mailto:info@albertapplianceshop.com" className="text-blue-600">info@albertapplianceshop.com</a>, or by
               mail to 128 E Pacific Coast Hwy, Long Beach, CA 90813, USA.
             </p>
             <p>
               These Legal Terms constitute a legally binding agreement made between you, whether
-              personally or on behalf of an entity ("<strong>you</strong>"), and APPLIANCENERDY, concerning your access to
+              personally or on behalf of an entity ("<strong>you</strong>"), and ALBERT APPLIANCE SHOP, concerning your access to
               and use of the Services. You agree that by accessing the Services, you have read,
               understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE
                 WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE
@@ -63,26 +63,26 @@ const TermsOfService = () => {
           <section className="bg-gray-50 p-8 rounded-3xl border border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 uppercase tracking-tight">TABLE OF CONTENTS</h2>
             <ol className="list-decimal pl-6 space-y-2 font-medium text-sm">
-              <li><a href="#services" className="text-primary hover:underline uppercase">OUR SERVICES</a></li>
-              <li><a href="#intellectual" className="text-primary hover:underline uppercase">INTELLECTUAL PROPERTY RIGHTS</a></li>
-              <li><a href="#representations" className="text-primary hover:underline uppercase">USER REPRESENTATIONS</a></li>
-              <li><a href="#prohibited" className="text-primary hover:underline uppercase">PROHIBITED ACTIVITIES</a></li>
-              <li><a href="#contributions" className="text-primary hover:underline uppercase">USER GENERATED CONTRIBUTIONS</a></li>
-              <li><a href="#license" className="text-primary hover:underline uppercase">CONTRIBUTION LICENSE</a></li>
-              <li><a href="#management" className="text-primary hover:underline uppercase">SERVICES MANAGEMENT</a></li>
-              <li><a href="#privacy" className="text-primary hover:underline uppercase">PRIVACY POLICY</a></li>
-              <li><a href="#termination" className="text-primary hover:underline uppercase">TERM AND TERMINATION</a></li>
-              <li><a href="#modifications" className="text-primary hover:underline uppercase">MODIFICATIONS AND INTERRUPTIONS</a></li>
-              <li><a href="#law" className="text-primary hover:underline uppercase">GOVERNING LAW</a></li>
-              <li><a href="#dispute" className="text-primary hover:underline uppercase">DISPUTE RESOLUTION</a></li>
-              <li><a href="#corrections" className="text-primary hover:underline uppercase">CORRECTIONS</a></li>
-              <li><a href="#disclaimer" className="text-primary hover:underline uppercase">DISCLAIMER</a></li>
-              <li><a href="#liability" className="text-primary hover:underline uppercase">LIMITATIONS OF LIABILITY</a></li>
-              <li><a href="#indemnification" className="text-primary hover:underline uppercase">INDEMNIFICATION</a></li>
-              <li><a href="#data" className="text-primary hover:underline uppercase">USER DATA</a></li>
-              <li><a href="#electronic" className="text-primary hover:underline uppercase">ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</a></li>
-              <li><a href="#miscellaneous" className="text-primary hover:underline uppercase">MISCELLANEOUS</a></li>
-              <li><a href="#contact" className="text-primary hover:underline uppercase">CONTACT US</a></li>
+              <li><a href="#services" className="text-blue-600 hover:underline uppercase">OUR SERVICES</a></li>
+              <li><a href="#intellectual" className="text-blue-600 hover:underline uppercase">INTELLECTUAL PROPERTY RIGHTS</a></li>
+              <li><a href="#representations" className="text-blue-600 hover:underline uppercase">USER REPRESENTATIONS</a></li>
+              <li><a href="#prohibited" className="text-blue-600 hover:underline uppercase">PROHIBITED ACTIVITIES</a></li>
+              <li><a href="#contributions" className="text-blue-600 hover:underline uppercase">USER GENERATED CONTRIBUTIONS</a></li>
+              <li><a href="#license" className="text-blue-600 hover:underline uppercase">CONTRIBUTION LICENSE</a></li>
+              <li><a href="#management" className="text-blue-600 hover:underline uppercase">SERVICES MANAGEMENT</a></li>
+              <li><a href="#privacy" className="text-blue-600 hover:underline uppercase">PRIVACY POLICY</a></li>
+              <li><a href="#termination" className="text-blue-600 hover:underline uppercase">TERM AND TERMINATION</a></li>
+              <li><a href="#modifications" className="text-blue-600 hover:underline uppercase">MODIFICATIONS AND INTERRUPTIONS</a></li>
+              <li><a href="#law" className="text-blue-600 hover:underline uppercase">GOVERNING LAW</a></li>
+              <li><a href="#dispute" className="text-blue-600 hover:underline uppercase">DISPUTE RESOLUTION</a></li>
+              <li><a href="#corrections" className="text-blue-600 hover:underline uppercase">CORRECTIONS</a></li>
+              <li><a href="#disclaimer" className="text-blue-600 hover:underline uppercase">DISCLAIMER</a></li>
+              <li><a href="#liability" className="text-blue-600 hover:underline uppercase">LIMITATIONS OF LIABILITY</a></li>
+              <li><a href="#indemnification" className="text-blue-600 hover:underline uppercase">INDEMNIFICATION</a></li>
+              <li><a href="#data" className="text-blue-600 hover:underline uppercase">USER DATA</a></li>
+              <li><a href="#electronic" className="text-blue-600 hover:underline uppercase">ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</a></li>
+              <li><a href="#miscellaneous" className="text-blue-600 hover:underline uppercase">MISCELLANEOUS</a></li>
+              <li><a href="#contact" className="text-blue-600 hover:underline uppercase">CONTACT US</a></li>
             </ol>
           </section>
 
@@ -108,7 +108,7 @@ const TermsOfService = () => {
             </ul>
             <p>solely for your personal, non-commercial use or internal business purpose.</p>
             <p>Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.</p>
-            <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <a href="mailto:info@appliancenerdy.shop" className="text-primary">info@appliancenerdy.shop</a>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</p>
+            <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <a href="mailto:info@albertapplianceshop.com" className="text-blue-600">info@albertapplianceshop.com</a>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</p>
             <p>We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.</p>
             <p>Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.</p>
 
@@ -198,7 +198,7 @@ const TermsOfService = () => {
 
           <section id="privacy">
             <h3 className="text-xl font-bold text-gray-900 border-b pb-2 mb-4 uppercase">8. PRIVACY POLICY</h3>
-            <p>We care about data privacy and security. Please review our Privacy Policy: <a href="https://appliancenerdy.shop/privacy-policy" className="text-primary hover:underline">https://appliancenerdy.shop/privacy-policy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.</p>
+            <p>We care about data privacy and security. Please review our Privacy Policy: <a href="https://albertapplianceshop.com/privacy-policy" className="text-blue-600 hover:underline">https://albertapplianceshop.com/privacy-policy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.</p>
           </section>
 
           <section id="termination">
@@ -262,10 +262,10 @@ const TermsOfService = () => {
             <h3 className="text-xl font-bold text-gray-900 border-b pb-2 mb-4 uppercase">21. CONTACT US</h3>
             <p>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
-              APPLIANCENERDY<br />
+              ALBERT APPLIANCE SHOP<br />
               128 E Pacific Coast Hwy, Long Beach, CA 90813, USA<br />
               United States<br />
-              <a href="mailto:info@appliancenerdy.shop" className="text-primary">info@appliancenerdy.shop</a>
+              <a href="mailto:info@albertapplianceshop.com" className="text-blue-600">info@albertapplianceshop.com</a>
             </address>
           </section>
         </div>

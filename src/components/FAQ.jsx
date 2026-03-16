@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const faqs = [
   {
     question: "How long does a typical repair take?",
-    answer: "Most repairs are completed within 45 to 90 minutes. Our technicians carry common spare parts to ensure same-day resolution for over 90% of our service calls."
+    answer: "Most repairs are completed within 45 to 90 minutes. Our experts carry common spare parts to ensure same-day resolution for over 90% of our service calls."
   },
   {
     question: "Do you use original spare parts?",
@@ -18,7 +18,7 @@ const faqs = [
   
   {
     question: "Do you provide emergency same-day service?",
-    answer: "Yes, we offer priority emergency services. Book before 12:00 PM and we guarantee a technician visit by the evening of the same day."
+    answer: "Yes, we offer priority emergency services. Book before 12:00 PM and we guarantee an expert visit by the evening of the same day."
   }
 ];
 

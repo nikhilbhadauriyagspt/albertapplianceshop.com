@@ -13,7 +13,7 @@ const WaterPurifierPage = () => (
         <section>
           <h2 className="text-3xl font-black text-gray-900 mb-6 uppercase tracking-tight">Pure Water, Healthy Life</h2>
           <p className="text-gray-500 leading-relaxed font-medium">
-            A water purifier is essential for removing harmful contaminants, bacteria, and excess minerals from your drinking water. Regular maintenance is crucial to ensure the filters and membranes are working correctly. Our technicians specialize in RO, UV, and UF technologies.
+            A water purifier is essential for removing harmful contaminants, bacteria, and excess minerals from your drinking water. Regular maintenance is crucial to ensure the filters and membranes are working correctly. Our experts specialize in RO, UV, and UF systems.
           </p>
         </section>
 
